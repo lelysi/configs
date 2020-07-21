@@ -1,0 +1,6 @@
+:set prompt "\ESC[32mλ\ESC[35m>\ESC[m "
+:color
+:def ass \_ -> return $ unless [ ":r", "main" ]
+:set +t
+:set +s
+:!clear
